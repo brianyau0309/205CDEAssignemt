@@ -3,15 +3,16 @@
 	padding: 0;
 }
 body {
-    background: lightgray !important; 
+    overflow-x: hidden;
+    background: #f0f0f0 !important; 
     margin: auto !important; 
-    margin-top: 15px !important; 
-    width: 90% !important;
+    margin-top: 15px !important;
+    padding: 40px;
+    width: 90%
 }
 .carouselSize{
     width: 100%;
-    height: 400px;
-    border: 10px solid;
+    height: 600px;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -19,10 +20,10 @@ body {
 .carouselImg {
     display: block;
     width: 100%;
-    height: 380px
+    height: 590px
 }
 img.btnCategory {
-	border: 3px solid lightgray;
+	border: 3px solid #f0f0f0;
 	border-radius: 10px;
 
 	width: 100%;
@@ -37,17 +38,34 @@ img.btnCategory:hover {
 }
 .example {
 	background-color: #FFFFFF;
-	border: 3px solid lightgray;
+	border: 3px solid #f0f0f0;
 	border-radius: 10px;
     
 	width: 100%;
 	height: 55vh;
 	max-width: 400px;
-	max-height: 350px;
+	max-height: 330px;
 }
-h3,h6 {
-    margin-left: 15px;
-    padding-top: 10px;
+.itemTitle {
+    display: block;
+    margin: 10px 0px 0px 0px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    font-size: 25px;
+        
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.itemAuther {
+    display: block;
+    margin: 0px 0px 0px 0px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    font-size: 15px
+}
+hr.forItem {
+    margin: 10px; 
 }
 .InExample {
     background: #000000;
@@ -55,6 +73,27 @@ h3,h6 {
     text-overflow: ellipsis;
     white-space: nowrap;
     color: #FFFFFF;
+}
+.wordWrap {
+    word-break: break-word !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+
+    width: 100%;
+    height: 55vh;
+    max-height: 50px;
+}
+.wordWrap2 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 100px;
+    width: 100%;
+    height: 20vh;
+    max-height: 135px;
+    background: url(ChineseFood.jpg) no-repeat center center;
+    background-size: 90% 100%;
 }
 
 .Hello{

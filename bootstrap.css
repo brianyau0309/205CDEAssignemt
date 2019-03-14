@@ -3284,7 +3284,7 @@ input[type="button"].btn-block {
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 10rem;
+  min-width: 9rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
@@ -4410,7 +4410,8 @@ input[type="button"].btn-block {
 }
 
 .navbar {
-  border-radius: 10px;
+    opacity: 0.9;
+    font-size: 1.1rem;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4446,9 +4447,11 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: inherit;
   white-space: nowrap;
+  background-color: crimson;
+  border-radius: 20px;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
