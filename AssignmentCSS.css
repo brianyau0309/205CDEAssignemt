@@ -7,20 +7,24 @@ body {
     background: #f0f0f0 !important; 
     margin: auto !important; 
     margin-top: 15px !important;
-    padding: 40px;
-    width: 90%
+    padding-top: 49px;
 }
+/*
+	Homepage
+				*/
 .carouselSize{
+	margin: auto;
     width: 100%;
-    height: 600px;
+    height: 82vh;
     border-radius: 10px;
-    margin-top: 10px;
     margin-bottom: 10px;
 }
 .carouselImg {
+	margin: auto;
     display: block;
+    border-radius: 10px;
     width: 100%;
-    height: 590px
+    height: 82vh;
 }
 img.btnCategory {
 	border: 3px solid #f0f0f0;
@@ -30,11 +34,6 @@ img.btnCategory {
 	height: 25vh;
 	max-width: 400px;
 	max-height: 250px;
-
-	transition: .5s ease;
-}
-img.btnCategory:hover {
-	opacity: 0.3;
 }
 .example {
 	background-color: #FFFFFF;
@@ -92,17 +91,66 @@ hr.forItem {
     width: 100%;
     height: 20vh;
     max-height: 135px;
-    background: url(ChineseFood.jpg) no-repeat center center;
+    background: url(image/Category/ChineseFood.jpg) no-repeat center center;
     background-size: 90% 100%;
 }
 
 .Hello{
 	color: #FFFFFF !important;
-	opacity: 1 !important;
+	opacity: 0.7 	 !important;
 }
 .Hello:hover {
-	opacity: 0.5 !important;
+	opacity: 1 !important;
 }
 .HelloItem:hover {
 	background-color: #C0C0C0 !important;
 }
+/*	
+	Homepage End
+					*/
+
+/*	
+	For Login Page
+					*/
+.loginPageContent {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginPageTitleField {
+	background-color: #78C2AD;
+	opacity: 0.9;
+	padding-bottom: 10px
+}
+.loginPageTitle {
+	margin-top: 20px;
+	margin-left: 30px;
+	font-size: 50px;
+	color: white;
+}
+.loginField {
+	border-radius: 10px;
+	background-color: crimson;
+	opacity: 0.9;
+
+	margin:auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	height: 400px;
+}
+.userInput {
+	border-right: 1px solid white;
+	width: 50%;
+	height: 340px;
+	padding-top: 30px;
+	padding-left: 30px; 
+	color: white;
+}
+loginUI {
+	display: block;
+	margin-bottom: 15px;
+	font-size: 20px
+}
+/*	
+	Login Page End
+					*/
