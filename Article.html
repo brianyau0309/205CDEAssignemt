@@ -13,15 +13,16 @@
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="AssignmentJS.js"></script>
-    <!--External JavaScript End-->
-
+	<!--External JavaScript End-->
+	
 </head>
 <body>
     
 <!-- Navbar Bootstrap -->
+<header></header>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-    <a class="navbar-brand" href="#">&nbsp;CooKinGdom&nbsp;</a>
-    <!--Toggle-->
+	<a class="navbar-brand" href="#">&nbsp;CooKinGdom&nbsp;</a>
+	<!--Toggle-->
   	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
   	</button>
@@ -47,48 +48,34 @@
         </ul>
     </div>
 </nav>
-<!-- Navber End -->
+<!--Navbar End-->
 
-
-<!-- Sign Up Page Content -->
-<section class="signUpPageContent">
-    <div id="signUpPageTitleField">
-        <span id="signUpPageTitle">Sign Up</span>
-    </div>
-    <div class="row">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-6">
-            <div class="signUpField">
-                <div class="formTitleBackground">
-                    <p class="formTitleFont">
-                        Lets Sign up a CooKinGdom Account!
-                    </p>
-                </div>
-
-                <!--Form start-->
-                <form method="POST" action="">
-                    <input class="form-control signUpUI" type="email" name="email" placeholder="Email" required>
-                    <input class="form-control signUpUI" type="text" name="name" placeholder="NickName" required>
-                    <input class="form-control signUpUI" type="password" name="password" placeholder="Password" required>
-					<input class="form-control signUpUI" type="password" name="cpassword" placeholder="Confirm Password" required>
-					<div class="signUpUI">
-                        <input type="checkbox" name="agree">
-                        <span> I Agree To The <a href="#">Terms & Conditions</a></span>
-                    </div>
-                    <button class="btn btn-danger signUpUI" style="font-size:25px;display: block">Sign Up</button>
-                </form>
-                <!--Form End-->
-
-                <div class="signUpUIFooter">Already have a Account? <a href="#">Login Now!</a></div>
-            </div>
+<!--Content-->
+<section class="articlePageContent">
+    
+    <div class="articleInfo">
+        <div style="padding: 20px">
+            <span id="articleDate">17/3/2019</span>
+            <span class="articlePrice">
+                <span>$ </span>
+                <span>20.00</span>
+                <button type="button" class="btn btn-danger btnAddCart-Article" style="display: block">Add to Cart</button>
+                <button type="button" class="btn btnBuy-Article" style="display: block">Buy Now!</button>
+            </span>
+        </div>
+        <div id="articleTitle">Here is the Title of Article</div>
+        <div class="articleAuthor">
+            <span>Author : NickName</span>
+            <span id="Author"></span>
         </div>
     </div>
+    <div class="articleContent">Article Content</div>
+
 </section>
 <!--Content End-->
 
 <!--Footer-->
 <footer></footer>
 <!--Footer End-->
-
 </body>
 </html>
